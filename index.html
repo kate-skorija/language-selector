@@ -16,125 +16,130 @@
         <p>Picking which programming languages to learn can be a difficult task! The form below will help you decide which language may be right for you.</p>
       </header>
       <main>
-        <form id="formOne">
-          <h3>What is your ideal workplace?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="workplace" value="ruby">
-              A small start-up. 
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="workplace" value="cSharp">
-              A large corporation or government institution. 
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="workplace" value="javaScript">
-              Anywhere! I just want a job. 
-            </label>
-          </div>
+        <div class="row">
+          <div class="col-sm-7">
+            <form id="formOne">
+              <h3>What is your ideal workplace?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="workplace" value="ruby">
+                  A small start-up. 
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="workplace" value="cSharp">
+                  A large corporation or government institution. 
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="workplace" value="javaScript">
+                  Anywhere! I just want a job. 
+                </label>
+              </div>
 
-          <h3>What sounds most fun to code?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="codeFun" value="ruby">
-              A web application. 
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="codeFun" value="cSharp">
-              Windows desktop applications and games. 
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="codeFun" value="javaScript">
-              A creative, interactive website. 
-            </label>
-          </div>
+              <h3>What sounds most fun to code?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="codeFun" value="ruby">
+                  A web application. 
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="codeFun" value="cSharp">
+                  Windows desktop applications and games. 
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="codeFun" value="javaScript">
+                  A creative, interactive website. 
+                </label>
+              </div>
 
 
-          <h3>What is your favorite color?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="color" value="ruby">
-              Red!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="color" value="cSharp">
-              Purple!
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="color" value="javaScript">
-              Yellow!
-            </label>
-          </div>
+              <h3>What is your favorite color?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="color" value="ruby">
+                  Red!
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="color" value="cSharp">
+                  Purple!
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="color" value="javaScript">
+                  Yellow!
+                </label>
+              </div>
 
-          <h3>What of the following traits most describes you?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="trait" value="ruby">
-              Adventure seeker
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="trait" value="cSharp">
-              Workaholic
-            </label>
-          </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="trait" value="javaScript">
-              Cool and collected
-            </label>
-          </div>
+              <h3>What of the following traits most describes you?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="trait" value="ruby">
+                  Adventure seeker
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="trait" value="cSharp">
+                  Workaholic
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="trait" value="javaScript">
+                  Cool and collected
+                </label>
+              </div>
 
-          <h3>What location would you most like to work from?</h3>
-          <div class="radio">
-            <label>
-              <input type="radio" name="location" value="ruby">
-              On the road; remotely from anywhere!
-            </label>
+              <h3>What location would you most like to work from?</h3>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="location" value="ruby">
+                  On the road; remotely from anywhere!
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="location" value="cSharp">
+                  Company office
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="location" value="javaScript">
+                  Home, with my dog
+                </label>
+              </div>
+              <button type="submit" class="btn" id="submit">Submit!</button>
+              <button type="reset" class="btn" id="reset">Reset</button>
+            </form>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="location" value="cSharp">
-              Company office
-            </label>
+        
+          <div class="col-sm-5">
+            <div class="well" id="rubyResult">
+              <h2>You should learn Ruby!</h2>
+              <p>Ruby is an interpreted, multipurpose programming language. It is very popular with start-ups and small businesses, but is also behind large companies like AirBnb. Ruby on Rails is a very popular backend framework written Ruby.</p>
+            </div>
+            <div class="well" id="cSharpResult">
+              <h2>You should learn C#!</h2>
+              <p>C# can be used for many different tasks, but is particularly great at building Windows desktop applications and games. C# is typically used by large corporations such as Microsoft. </p>
+            </div>
+            <div class="well well-lg" id="javaScriptResult">
+              <h2>You should learn JavaScript!</h2>
+              <p>JavaScript is arguably the most popular and widespread programming language. It is an essential tool in your programming toolbelt! jQuery and React are widely-used JavaScript libraries.</p>
+            </div>
           </div>
-          <div class="radio">
-            <label>
-              <input type="radio" name="location" value="javaScript">
-              Home, with my dog
-            </label>
-          </div>
-          <button type="submit" class="btn" id="submit">Submit!</button>
-          <button type="reset" class="btn" id="reset">Reset</button>
-        </form>
+        </div> 
       </main>
-      <aside>
-        <div id="rubyResult">
-          <h2>You should learn Ruby!</h2>
-          <p>Ruby is an interpreted, multipurpose programming language. It is very popular with start-ups and small businesses, but is also behind large companies like AirBnb. Ruby on Rails is a very popular backend framework written Ruby.</p>
-        </div>
-        <div id="cSharpResult">
-          <h2>You should learn C#!</h2>
-          <p>C# can be used for many different tasks, but is particularly great at building Windows desktop applications and games. C# is typically used by large corporations such as Microsoft. </p>
-        </div>
-        <div id="javaScriptResult">
-          <h2>You should learn JavaScript!</h2>
-          <p>JavaScript is arguably the most popular and widespread programming language. It is an essential tool in your programming toolbelt! jQuery and React are widely-used JavaScript libraries.</p>
-        </div>
-      </aside>
       <footer>
       </footer>
     </div>
