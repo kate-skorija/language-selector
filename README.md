@@ -1,4 +1,4 @@
-# Programming Language Selector
+![Programming Language Selector](img/language-selector.png)
 
 #### Bootstrap, JavaScript, and jQuery Exercise for Epicodus, 06.05.2020
 
@@ -6,7 +6,7 @@
 
 ## Description
 
-This website showcases a form that suggests which programming language the user should learn. You may view the published site on [GitHub Pages](https://kate-skorija.github.io/xxx).
+This website showcases a form that will suggest which programming language the user should learn: Ruby, C#, or JavaScript. You may view the published site on [GitHub Pages](https://kate-skorija.github.io/xxx).
 
 ## Setup/Installation Requirements
 
@@ -19,14 +19,14 @@ Software Requirements:
 
 To Open:
 
-1.  Navigate to [kate-skorija language-selector respository](https://github.com/kate-skorija/language-selector)
+1.  Navigate to the [language-selector respository](https://github.com/kate-skorija/language-selector) or open your terminal
 
-2. Clone this project from GitHub
+2. Clone this project using the GitHub button or the command:
 `$ git clone https://github.com/kate-skorija/portfolio-landing-page.git`
 
-3. Open in your editor of choice, or use [Visual Studio Code](https://code.visualstudio.com/)
+3. Navigate to the `language-selector` directory in your editor of choice, or use [Visual Studio Code](https://code.visualstudio.com/)
 
-4. Open in the browser of your choice by dragging and dropping the index.html file into a browser window
+4. Open in the browser of your choice by dragging and dropping the `index.html` file into a browser window
 
 
 ## Known Bugs

@@ -51,22 +51,22 @@ $(document).ready(function() {
       }
       if (ruby > cSharp && ruby > javaScript) {
         $(".name").text(nameInput);
-        $("#rubyResult").show("slide");
+        $("#rubyResult").fadeIn();
       } else if (cSharp > ruby && cSharp > javaScript) {
         $(".name").text(nameInput);
-        $("#cSharpResult").show("slide");
+        $("#cSharpResult").fadeIn();
       } else if (javaScript > ruby && javaScript > cSharp) {
         $(".name").text(nameInput);
-        $("#javaScriptResult").show("slide");
+        $("#javaScriptResult").fadeIn();
       } else {
         $(".name").text(nameInput);
-        $("#javaScriptResult").show("slide");
+        $("#javaScriptResult").fadeIn();
       }
     }
     $("button#reset").click(function() {
-      $("#rubyResult").hide();
-      $("#cSharpResult").hide();
-      $("#javaScriptResult").hide();
+      $("#rubyResult").fadeOut();
+      $("#cSharpResult").fadeOut();
+      $("#javaScriptResult").fadeOut();
     })
   });
 });
