@@ -6,7 +6,7 @@
 
 ## Description
 
-This website showcases a form that will suggest which programming language the user should learn: Ruby, C#, or JavaScript. You may view the published site on [GitHub Pages](https://kate-skorija.github.io/xxx).
+This website showcases a form that will suggest which programming language the user should learn: Ruby, C#, JavaScript, or Python. You may view the published site on [GitHub Pages](https://kate-skorija.github.io/xxx).
 
 ## Setup/Installation Requirements
 

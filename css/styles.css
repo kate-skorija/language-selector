@@ -12,6 +12,10 @@
   display: none;
 }
 
+#pythonResult {
+  display: none;
+}
+
 .well {
   padding: 20px 50px 50px 50px;
   margin-top: 36px;

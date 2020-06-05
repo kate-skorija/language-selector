@@ -14,12 +14,15 @@ $(document).ready(function() {
       let ruby = 0
       let cSharp = 0
       let javaScript = 0
+      let python = 0
       if (workplace === "ruby") {
         ruby += 1;
       } else if (workplace === "cSharp") {
         cSharp += 1;
       } else if (workplace === "javaScript") {
         javaScript += 1;
+      } else if (workplace === "python") {
+        python += 1;
       }
       if (codeFun === "ruby") {
         ruby += 1;
@@ -27,6 +30,8 @@ $(document).ready(function() {
         cSharp += 1;
       } else if (codeFun === "javaScript") {
         javaScript += 1;
+      } else if (codeFun === "python") {
+        python += 1;
       }
       if (color === "ruby") {
         ruby += 1;
@@ -34,6 +39,8 @@ $(document).ready(function() {
         cSharp += 1;
       } else if (color === "javaScript") {
         javaScript += 1;
+      } else if (color === "python") {
+        python += 1;
       }
       if (trait === "ruby") {
         ruby += 1;
@@ -41,6 +48,8 @@ $(document).ready(function() {
         cSharp += 1;
       } else if (trait === "javaScript") {
         javaScript += 1;
+      } else if (trait === "python") {
+        python += 1;
       }
       if (location === "ruby") {
         ruby += 1;
@@ -48,6 +57,8 @@ $(document).ready(function() {
         cSharp += 1;
       } else if (location === "javaScript") {
         javaScript += 1;
+      } else if (location === "python") {
+        python += 1;
       }
       if (ruby > cSharp && ruby > javaScript) {
         $(".name").text(nameInput);
@@ -58,6 +69,9 @@ $(document).ready(function() {
       } else if (javaScript > ruby && javaScript > cSharp) {
         $(".name").text(nameInput);
         $("#javaScriptResult").show("slide");
+      } else if (python > ruby && python > cSharp) {
+        $(".name").text(nameInput);
+        $("#pythonResult").show("slide");
       } else {
         $(".name").text(nameInput);
         $("#javaScriptResult").show("slide");
@@ -67,6 +81,7 @@ $(document).ready(function() {
       $("#rubyResult").hide("slide");
       $("#cSharpResult").hide("slide");
       $("#javaScriptResult").hide("slide");
+      $("#pythonResult").hide("slide");
     })
   });
 });
