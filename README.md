@@ -6,7 +6,7 @@
 
 ## Description
 
-This website showcases a form that will suggest which programming language the user should learn: Ruby, C#, JavaScript, or Python. You may view the published site on [GitHub Pages](https://kate-skorija.github.io/xxx).
+This website showcases a form that will suggest which programming language the user should learn: Ruby, C#, JavaScript, or Python. You may view the published site on [GitHub Pages](https://kate-skorija.github.io/language-selector/).
 
 ## Setup/Installation Requirements
 
@@ -22,7 +22,7 @@ To Open:
 1.  Navigate to the [language-selector respository](https://github.com/kate-skorija/language-selector) or open your terminal
 
 2. Clone this project using the GitHub button or the command:
-`$ git clone https://github.com/kate-skorija/portfolio-landing-page.git`
+`$ git clone https://github.com/kate-skorija/language-selector.git`
 
 3. Navigate to the `language-selector` directory in your editor of choice, or use [Visual Studio Code](https://code.visualstudio.com/)
 
