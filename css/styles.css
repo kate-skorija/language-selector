@@ -1,4 +1,16 @@
-#formResult {
+aside {
+  float: right;
+}
+
+#rubyResult {
+  display: none;
+}
+
+#cSharpResult {
+  display: none;
+}
+
+#javaScriptResult {
   display: none;
 }
 

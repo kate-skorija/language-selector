@@ -49,21 +49,19 @@ $(document).ready(function() {
         javaScript += 1;
       }
       if (ruby > cSharp && ruby > javaScript) {
-        $(".languageOutput").text("Ruby");
-        $("#formResult").show();
+        $("#rubyResult").show();
       } else if (cSharp > ruby && cSharp > javaScript) {
-        $(".languageOutput").text("C#");
-        $("#formResult").show();
+        $("#cSharpResult").show();
       } else if (javaScript > ruby && javaScript > cSharp) {
-        $(".languageOutput").text("JavaScript");
-        $("#formResult").show();
+        $("#javaScriptResult").show();
       } else {
-        $(".languageOutput").text("JavaScript");
-        $("#formResult").show();
+        $("#javaScriptResult").show();
       }
     }
     $("button#reset").click(function() {
-      $("#formResult").hide();
+      $("#rubyResult").hide();
+      $("#cSharpResult").hide();
+      $("#javaScriptResult").hide();
     })
   });
 });
