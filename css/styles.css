@@ -89,5 +89,12 @@ button {
 @media screen and (max-width: 725px) {
   .well {
     margin-top: 30px;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .jumbotron div {
+    padding: 50px 30px;
   }
 }
