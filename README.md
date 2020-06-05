@@ -1,16 +1,33 @@
 # Programming Language Selector
 
+#### Bootstrap, JavaScript, and jQuery Exercise for Epicodus, 06.05.2020
+
 ### By Kate Skorija
 
 ## Description
 
-This website showcases a form that suggests which programming language the user should learn. 
+This website showcases a form that suggests which programming language the user should learn. You may view the published site on [GitHub Pages](https://kate-skorija.github.io/xxx).
 
 ## Setup/Installation Requirements
 
-1. Open in your editor of choice, or use [Visual Studio Code](https://code.visualstudio.com/)
 
-2. Open in the browser of your choice by dragging and dropping the index.html file into a browser window
+Software Requirements:
+
+1.  Internet browser
+
+2.  A code editor, such as Visual Studio Code, to view or edit the code base
+
+To Open:
+
+1.  Navigate to [kate-skorija language-selector respository](https://github.com/kate-skorija/language-selector)
+
+2. Clone this project from GitHub
+`$ git clone https://github.com/kate-skorija/portfolio-landing-page.git`
+
+3. Open in your editor of choice, or use [Visual Studio Code](https://code.visualstudio.com/)
+
+4. Open in the browser of your choice by dragging and dropping the index.html file into a browser window
+
 
 ## Known Bugs
 
@@ -18,7 +35,7 @@ There are no known bugs at this time.
 
 ## Support and Contact Details
 
-If there are any issues or questions, please reach out to me through my GitHub account. 
+If there are any issues or questions, please reach out to me through [my GitHub account](https://github.com/kate-skorija). 
 
 ## Technologies Used
 
@@ -26,8 +43,9 @@ If there are any issues or questions, please reach out to me through my GitHub a
 *  [Markdown](https://daringfireball.net/projects/markdown/)
 *  [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
 *  [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
+*  [Bootstrap](https://developer.mozilla.org/en-US/docs/Glossary/Bootstrap)
 *  [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
+*  [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery)
 
 ### License
 
