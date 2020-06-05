@@ -49,13 +49,13 @@ $(document).ready(function() {
         javaScript += 1;
       }
       if (ruby > cSharp && ruby > javaScript) {
-        $("#rubyResult").show();
+        $("#rubyResult").show("slide");
       } else if (cSharp > ruby && cSharp > javaScript) {
-        $("#cSharpResult").show();
+        $("#cSharpResult").show("slide");
       } else if (javaScript > ruby && javaScript > cSharp) {
-        $("#javaScriptResult").show();
+        $("#javaScriptResult").show("slide");
       } else {
-        $("#javaScriptResult").show();
+        $("#javaScriptResult").show("slide");
       }
     }
     $("button#reset").click(function() {
