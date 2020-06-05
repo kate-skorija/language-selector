@@ -10,9 +10,14 @@
   display: none;
 }
 
-body {
+main {
   padding: 0 30px;
   padding-bottom: 30px;
+}
+
+header {
+  text-align: center;
+  padding: 50px;
 }
 
 .well {
@@ -26,4 +31,10 @@ body {
 
 .col-sm-4 {
   padding-left: 0px;
+}
+
+@media screen and (max-width: 725px) {
+  .well {
+    margin-top: 30px;
+  }
 }
