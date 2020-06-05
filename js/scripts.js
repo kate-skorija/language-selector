@@ -7,7 +7,9 @@ $(document).ready(function () {
     const trait = $("input:radio[name=trait]:checked").val();
     const location = $("input:radio[name=location]:checked").val();
 
-    if (workplace === codeFun && workplace === color || workplace === codeFun && workplace === trait || workplace === codeFun && workplace === location) {
+    if (!workplace || !codeFun || !color || !trait || !location) {
+      alert("Please answer all of the questions to ensure a correct result.")
+    } else if (workplace === codeFun && workplace === color || workplace === codeFun && workplace === trait || workplace === codeFun && workplace === location) {
       $(".languageOutput").text(workplace);
       $("#formResult").show();
     } else if (codeFun === color && codeFun === trait || codeFun === color && codeFun === location || codeFun === trait && codeFun === location) {
