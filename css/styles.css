@@ -13,7 +13,8 @@
 }
 
 .well {
-  padding: 50px;
+  padding: 20px 50px 50px 50px;
+  margin-top: 36px;
   margin-left: 0px;
   background-color: rgb(247, 129, 113)
 }
@@ -24,6 +25,12 @@
 
 .well p {
   font-family: 'Roboto', sans-serif;
+}
+
+img {
+  width: 360px;
+  height: 210px;
+  margin-top: 20px;
 }
 
 /* --------Header--------- */
@@ -63,6 +70,11 @@ main {
   padding: 50px;
   background-color: #fff0f2;
   font-family: 'Roboto', sans-serif;
+}
+
+.form-group label {
+  font-size: 1.7em;
+  font-weight: normal;
 }
 
 .col-sm-8 {

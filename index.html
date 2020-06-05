@@ -22,6 +22,11 @@
         <div class="row">
           <div class="col-sm-7">
             <form id="formOne">
+              <div class="form-group">
+                <label for="name">Enter your first name:</label>
+                <input id="name" class="form-control" type="text">
+              </div>
+
               <h3>What is your ideal workplace?</h3>
               <div class="radio">
                 <label>
@@ -38,7 +43,7 @@
               <div class="radio">
                 <label>
                   <input type="radio" name="workplace" value="javaScript">
-                  Anywhere! I just want a job. 
+                  Anywhere! I just want a job! 
                 </label>
               </div>
 
@@ -121,30 +126,29 @@
                   On the road — remotely from anywhere!
                 </label>
               </div>
-              
               <button type="submit" class="btn" id="submit">Submit!</button>
               <button type="reset" class="btn" id="reset">Reset</button>
             </form>
           </div>
-        
           <div class="col-sm-5">
             <div class="well" id="rubyResult">
-              <h2>You should learn Ruby!</h2>
+              <h2><span class="name"></span>, you should learn Ruby!</h2>
               <p>Ruby is an interpreted, multipurpose programming language. It is very popular with start-ups and small businesses, but it is also used at large companies like AirBnb. Ruby on Rails is a very popular backend framework written in Ruby.</p>
+              <img src="img/ruby.jpg" alt="Ruby Logo">
             </div>
             <div class="well" id="cSharpResult">
-              <h2>You should learn C#!</h2>
+              <h2><span class="name"></span>, you should learn C#!</h2>
               <p>C# can be used for many different tasks, but is particularly great at building Windows desktop applications and games. C# is typically used by large corporations such as Microsoft. </p>
+              <img src="img/cSharp.png" alt="C# Logo">
             </div>
             <div class="well well-lg" id="javaScriptResult">
-              <h2>You should learn JavaScript!</h2>
+              <h2><span class="name"></span>, you should learn JavaScript!</h2>
               <p>JavaScript is arguably the most popular and widespread programming language. It is an essential tool in your programming toolbelt! jQuery and React are widely-used JavaScript libraries. If you're not sure what language to choose, pick JavaScript!</p>
+              <img src="img/js.png" alt="JavaScript Logo">
             </div>
           </div>
         </div> 
       </main>
-      <footer>
-      </footer>
     </div>
   </body>
 </html>
