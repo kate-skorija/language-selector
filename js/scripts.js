@@ -8,7 +8,7 @@ $(document).ready(function() {
     const trait = $("input:radio[name=trait]:checked").val();
     const location = $("input:radio[name=location]:checked").val();
 
-    if (!workplace || !codeFun || !color || !trait || !location) {
+    if (!nameInput || !workplace || !codeFun || !color || !trait || !location) {
       alert("Please answer all of the questions to ensure a correct result.")
     } else {
       let ruby = 0
