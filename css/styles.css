@@ -1,3 +1,5 @@
+/* --------Results--------- */
+
 #rubyResult {
   display: none;
 }
@@ -10,19 +12,32 @@
   display: none;
 }
 
-main {
-  padding: 0 30px;
-  padding-bottom: 30px;
-}
-
-header {
-  text-align: center;
-  padding: 50px;
-}
-
 .well {
   padding: 50px;
   margin-left: 0px;
+}
+
+/* --------Header--------- */
+
+.jumbotron {
+  margin: 0;
+  padding: 150px 50px;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+/* --------Form--------- */
+
+.container-fluid {
+  padding: 0px;
+}
+
+main {
+  padding: 50px;
+  background-color: pink;
 }
 
 .col-sm-8 {
@@ -32,6 +47,16 @@ header {
 .col-sm-4 {
   padding-left: 0px;
 }
+
+button {
+  margin: 20px 10px 20px 0;
+}
+
+#reset {
+  padding: 6px 20px 6px 20px;
+}
+
+/* --------Media Queries--------- */
 
 @media screen and (max-width: 725px) {
   .well {
